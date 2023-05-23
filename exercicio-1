@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void) {
+  //1 - Escreva um programa que exibe a mensagem:
+  //Bom dia!
+  //Estou aprendendo a programar
+  //Definitivamente não é "muito" difícil
+  printf(" Bom dia!\n Estou aprendendo a programar\n Definitivamente não é \"muito\" difícil\n\n");
+  return 0;
+}
