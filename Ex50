@@ -1,0 +1,38 @@
+int main(void) {
+  //Ex. 50 - Crie um programa que recebe 5 números inteiros e exiba o menor. 
+  int n1, n2, n3, n4, n5;
+  int i = 0;
+    
+  printf("Digite um numeros: ");
+  scanf("%d", &n1);
+
+  printf("\nDigite um numeros: ");
+  scanf("%d", &n2);
+
+  printf("\nDigite um numeros: ");
+  scanf("%d", &n3);
+
+  printf("\nDigite um numeros: ");
+  scanf("%d", &n4);
+
+  printf("\nDigite um numeros: ");
+  scanf("%d", &n5);
+  
+  
+  if(n1 < n2 && n1 < n3 && n1 < n4 && n1 < n5)
+    printf("O menor número é %d", n1);
+  
+  if(n2 < n1 && n2 < n3 && n2 < n4 && n2 < n5) 
+    printf("O menor número é %d", n2);
+  
+  if(n3 < n2 && n3 < n1 && n3 < n4 && n3 < n5) 
+    printf("O menor número é %d", n3);
+  
+  if(n4 < n2 && n4 < n3 && n4 < n1 && n4 < n5) 
+    printf("O menor número é %d", n4);
+  
+  if(n5 < n2 && n5 < n3 && n5 < n4 && n5 < n1)
+    printf("O menor número é %d", n5);
+          
+  return 0;
+}
