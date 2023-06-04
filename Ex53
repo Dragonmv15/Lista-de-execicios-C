@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main(void) {
+  // Escreva um programa que sorteia 10 números pares entre 1 e 100 e exibe na
+  // tela. (como garantir que o sorteio exiba apenas números pares?)
+  srand(time(NULL));
+  int n, i = 1;
+  
+  do
+  {
+   n  = rand() % 100 + 1;
+    if ( n % 2 == 0){
+      printf("\n%d", n);
+      i++;
+    }   
+  }
+  while(i <= 10);  
+  return 0;
+}
