@@ -1,0 +1,17 @@
+int main(void) {
+  //Escreva um programa exibe na tela o padrão a seguir:
+  //*
+  //**
+  //***
+  //****
+  //*****
+  int i, j;
+  for(i = 0; i <= 4; i++) {
+    
+    for(j = 0; j <= i; j++){
+      printf("*");
+    }
+    printf("\n");
+  }
+  return 0;
+}
