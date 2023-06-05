@@ -1,0 +1,15 @@
+int main(void) {
+  //Dado um número digitado pelo usuário, exiba o fatorial deste número. 
+  int n, f = 1;
+  
+  printf("Digite um número: ");
+  scanf("%d", &n);
+
+  for (int i = 1; i <= n; i++)
+  {
+    f *= i;
+  }
+  printf("%d", f);
+  
+  return 0;
+}
